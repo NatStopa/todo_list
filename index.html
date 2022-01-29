@@ -10,19 +10,31 @@
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
   <body>
     <div class="content">
       <header>
-        <h1>To do</h1>
+        <h1 class="header">To do</h1>
         <div class="task-adding">
-          <input type="text" id="addTaskInput" />
-          <img src="./src/add.svg" alt="plus icon" />
+          <input type="text" class="task-input" />
+          <i
+            class="plus-icon material-icons"
+            style="font-size: 40px; color: #09151a"
+            >add</i
+          >
         </div>
         <div class="task-section">
           <div class="task">
             <p class="task-text">Walk the dog</p>
-            <img src="./src/done.svg" alt="done icon" />
+            <i
+              class="done-icon material-icons"
+              style="font-size: 35px; color: #09151a"
+              >done</i
+            >
           </div>
         </div>
       </header>
