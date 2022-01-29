@@ -2,9 +2,18 @@ body {
   background-color: #09151a;
   display: flex;
   font-family: "Poiret One", cursive;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
+}
+
+.app {
+  width: 360px;
+}
+
+.completed {
+  opacity: 0.1;
+  text-decoration: line-through;
 }
 
 .content {
@@ -16,24 +25,30 @@ body {
   );
   border-radius: 5px;
   display: flex;
-  height: 600px;
+  height: 700px;
   justify-content: center;
-  margin: 70px;
+  margin: 30px;
   width: 450px;
 }
 
 .header {
   color: #ffffff;
-  font-size: 100px;
+  font-size: 130px;
   font-weight: 400;
   margin-bottom: 30px;
   margin-top: 60px;
+  text-align: center;
 }
 
 .plus-icon {
   position: relative;
-  left: 50%;
+  left: 43%;
   bottom: 2px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
 }
 
 .task-adding {
@@ -46,9 +61,19 @@ body {
   border: 1px solid transparent;
   border-radius: 5px;
   color: #0f2027;
-  font-size: 15px;
-  height: 35px;
-  padding: 0 30px 0 6px;
+  font-size: 20px;
+  height: 40px;
+  padding: 0 35px 0 6px;
   position: absolute;
-  width: 235px;
+  width: 305px;
+}
+
+.task-section {
+  margin-top: 40px;
+}
+
+.task-text {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 10px;
 }
