@@ -19,43 +19,19 @@
     <div class="content">
       <div class="app">
         <h1 class="header">To do</h1>
-        <div class="task-adding">
+        <form class="task-adding">
           <input type="text" class="task-input" />
-          <i
-            class="plus-icon material-icons"
-            style="font-size: 45px; color: #09151a"
-            >add</i
-          >
-        </div>
-        <div class="task-section">
-          <div class="task">
-            <p class="task-text">Walk the dog</p>
+          <button type="submit" class="plus-button">
             <i
-              class="done-icon material-icons"
-              style="
-                font-size: 35px;
-                color: #09151a;
-                display: flex;
-                align-items: center;
-              "
-              >done</i
+              class="plus-icon material-icons"
+              style="font-size: 45px; color: #09151a"
+              >add</i
             >
-          </div>
-          <div class="task">
-            <p class="task-text completed">Clean the toilet</p>
-            <i
-              class="done-icon material-icons"
-              style="
-                font-size: 35px;
-                color: #09151a;
-                display: flex;
-                align-items: center;
-              "
-              >done</i
-            >
-          </div>
-        </div>
+          </button>
+        </form>
+        <div class="task-section"></div>
       </div>
     </div>
+    <script src="./src/app.js"></script>
   </body>
 </html>

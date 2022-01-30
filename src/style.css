@@ -31,6 +31,11 @@ body {
   width: 450px;
 }
 
+.done-button {
+  display: flex;
+  align-items: center;
+}
+
 .header {
   color: #ffffff;
   font-size: 130px;
@@ -41,9 +46,19 @@ body {
 }
 
 .plus-icon {
+  bottom: 4px;
   position: relative;
-  left: 43%;
-  bottom: 2px;
+  right: 10px;
+}
+
+.plus-button {
+  background: transparent;
+  border: none;
+  height: 40px;
+  left: 45%;
+  position: relative;
+  top: 1px;
+  width: 40px;
 }
 
 .task {
@@ -63,7 +78,7 @@ body {
   color: #0f2027;
   font-size: 20px;
   height: 40px;
-  padding: 0 35px 0 6px;
+  padding: 0 40px 0 6px;
   position: absolute;
   width: 305px;
 }
@@ -102,5 +117,8 @@ body {
   }
   .task-section {
     margin-top: 20px;
+  }
+  .task-text {
+    margin: 5px 0;
   }
 }
