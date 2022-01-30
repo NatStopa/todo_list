@@ -32,8 +32,9 @@ body {
 }
 
 .done-button {
-  display: flex;
   align-items: center;
+  cursor: pointer;
+  display: flex;
 }
 
 .header {
@@ -54,11 +55,12 @@ body {
 .plus-button {
   background: transparent;
   border: none;
+  cursor: pointer;
   height: 40px;
   left: 45%;
   position: relative;
   top: 1px;
-  width: 40px;
+  width: 42px;
 }
 
 .task {
